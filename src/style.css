@@ -35,20 +35,55 @@ header a {
   background: #fff;
   padding: 15px 20px;
 }
+main {
+  background: #fff;
+}
+main h1 {
+  font-size: 38px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+main p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
+}
 .grid {
   display: grid;
+
+  grid-gap: 64px;
+}
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-col-1-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+.temple-img {
+  width: 500px;
 }
 footer {
   background-image: linear-gradient(rgba(6, 3, 48, 0.9), rgba(6, 3, 48, 0.9)),
     url("/images/tokyo-footer.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 footer p {
   font-size: 14px;
@@ -84,5 +119,22 @@ footer a {
   }
   header h3 {
     font-size: 14px;
+  }
+  section {
+    padding: 20px 25px;
+  }
+  .temple-img {
+    width: 450px;
+  }
+  .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+  .grid-3-col-1-narrow {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500) {
+  .temple-img {
+    width: 100px;
   }
 }
