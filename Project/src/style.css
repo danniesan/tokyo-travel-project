@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/tokyo-first.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #fff;
+}
+h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+}
