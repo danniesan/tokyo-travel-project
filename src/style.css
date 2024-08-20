@@ -1,5 +1,5 @@
 body {
-  background: #000278;
+  background: rgb(12, 5, 109);
   color: #fff;
 }
 .container {
@@ -35,8 +35,40 @@ header a {
   background: #fff;
   padding: 15px 20px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer {
+  background-image: linear-gradient(rgba(6, 3, 48, 0.9), rgba(6, 3, 48, 0.9)),
+    url("/images/tokyo-footer.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer p {
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
