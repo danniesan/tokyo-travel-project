@@ -76,11 +76,11 @@ section {
   margin: 0 auto;
   padding: 100px 0;
 }
-.temple-img {
-  width: 500px;
+.nightlife-img {
+  width: 100%;
 }
 footer {
-  background-image: linear-gradient(rgba(6, 3, 48, 0.9), rgba(6, 3, 48, 0.9)),
+  background-image: linear-gradient(rgba(6, 3, 48, 0.85), rgba(6, 3, 48, 0.85)),
     url("/images/tokyo-footer.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,18 +123,10 @@ footer a {
   section {
     padding: 20px 25px;
   }
-  .temple-img {
-    width: 450px;
-  }
   .grid-2-col {
     grid-template-columns: 1fr;
   }
   .grid-3-col-1-narrow {
     grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 500) {
-  .temple-img {
-    width: 100px;
   }
 }
