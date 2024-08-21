@@ -54,6 +54,16 @@ main h2 {
   text-transform: uppercase;
   margin: 0;
 }
+main h3 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+}
+main h4 {
+  line-height: 1;
+  font-size: 24px;
+  margin: 0;
+}
 main p {
   font-size: 16px;
   line-height: 24px;
@@ -68,16 +78,46 @@ main p {
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-col {
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-col-1-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
+.card {
+  background: #fff;
+  margin-top: 30px 0;
 }
-.nightlife-img {
-  width: 100%;
+.card-body {
+  padding: 30px;
+}
+.btn {
+  display: block;
+  color: #fff;
+  background: #3d6cb9;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+section.secondary {
+  background: #f5feff;
+  color: #272044;
+}
+.text-center {
+  text-align: center;
+}
+.img-responsive {
+  max-width: 100%;
 }
 footer {
   background-image: linear-gradient(rgba(6, 3, 48, 0.85), rgba(6, 3, 48, 0.85)),
@@ -124,6 +164,9 @@ footer a {
     padding: 20px 25px;
   }
   .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+  .grid-3-col {
     grid-template-columns: 1fr;
   }
   .grid-3-col-1-narrow {
