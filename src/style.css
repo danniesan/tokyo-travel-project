@@ -1,5 +1,5 @@
 body {
-  background: rgb(12, 5, 109);
+  background: #21294c;
   color: #fff;
 }
 .container {
@@ -120,7 +120,7 @@ section {
   padding: 100px;
 }
 section.secondary {
-  background: #f5feff;
+  background: #c9d6da;
   color: #272044;
 }
 .text-center {
